@@ -1,7 +1,5 @@
 package com.samm.DiscoryServer;
 
-import org.assertj.core.api.Assert;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -12,6 +10,11 @@ class DiscoryServerApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void TestBranch2(){
+		Assertions.assertThat(true);
+		System.out.println("hello World!");
+	}
 	@Test
 	void TestBranch2(){
 		Assertions.assertThat(true);
