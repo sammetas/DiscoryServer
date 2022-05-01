@@ -17,4 +17,9 @@ class DiscoryServerApplicationTests {
 		Assertions.assertThat(true);
 		System.out.println("hello World!");
 	}
+
+	@Test
+	void testExpectingTobeFailed(){
+		System.out.println("Are you fail?");
+	}
 }
